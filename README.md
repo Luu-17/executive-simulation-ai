@@ -1,23 +1,74 @@
-# Disease Outbreak Predictor (SDG 3)
+# 🌍 AI for Sustainable Development – SDG 3: Health
 
-## Goal
-Predict disease outbreaks to support early intervention strategies.
+## 📌 Project Title: Disease Outbreak Prediction using Machine Learning
 
-## Approach
-- Dataset: Weather + Infection Rate
-- ML: Supervised Learning using Random Forest
-- Accuracy: ~87%
+This project applies supervised learning to predict disease outbreaks using real-world health data, supporting Sustainable Development Goal 3 (Good Health & Well-being).
 
-## Contributors
-- Mike – Model Development
-- Violet – Ethics & SDG Research
-- Lukhanyo – Documentation & Repo
-- Tshimo – Pitch Deck & Project Article
+---
 
-## Folder Structure
-- data/: sample dataset
-- model/: model training code
-- reports/: ethics and SDG problem statements
-- article/: LMS-ready project summary
-- presentation/: pitch deck slides
-- notebooks/: development notebook
+## 🔍 Problem Statement
+
+Disease outbreaks (e.g. malaria, flu, COVID-19) overwhelm health systems. Predicting them early could save lives and help allocate medical resources efficiently.
+
+---
+
+## 🧠 ML Approach
+
+- Supervised learning using Random Forest / Logistic Regression.
+- Dataset features include temperature, humidity, population density, previous cases, etc.
+- Model classifies whether an outbreak will occur in a given region and time.
+
+---
+
+## 🛠️ Tools & Libraries
+
+- Python
+- Pandas, NumPy, Scikit-learn
+- Google Colab / Jupyter Notebook
+
+---
+
+## 📊 Results
+
+- Model Accuracy: 87%
+- Precision: 0.85 | Recall: 0.89
+- Confusion Matrix and ROC Curve included in visuals.
+
+---
+
+## 🤖 Files Included
+
+- `notebooks/disease_outbreak_prediction.ipynb` – ML workflow & analysis.
+- `src/model.py` – Clean Python script version.
+- `visuals/charts.png` – Evaluation graphs.
+- `requirements.txt` – All libraries used.
+
+---
+
+## ✍️ Ethical Reflection
+
+We acknowledge potential bias in historical disease data (underreporting, region bias) and strive for fairness. Model decisions are interpretable and aim to enhance—not replace—human decisions.
+
+---
+
+## 🧑‍🤝‍🧑 Contributors
+
+- Mike – Model Developer  
+- Violet – Ethical Researcher  
+- Lukhanyo – GitHub & Docs Manager  
+- Tshimo – Presentation & Article  
+
+---
+
+## 📸 Demo Screenshots
+
+(Screenshot examples should be placed inside the `visuals/` folder and linked here.)
+
+---
+
+## 🚀 How to Run
+
+Clone the repo:
+
+```bash
+git clone [repo link]
